@@ -1,0 +1,25 @@
+<html>
+  <head>My Favorite Car's Counter
+    <title>A Counter for counting My Favorite Car in the Streets :)</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="body-wrapper">
+      <h1>Hey, That's My FAVORITE Car!</h1>
+      <h2 id="count-el">0</h2>
+      <!-- Create a INCREMENT button with the id="increment-btn" -->
+      <button id="increment-btn" onclick="increment()">INCREMENT</button>
+      <button id="save-btn" onclick="save()">SAVE</button>
+      <div id="previous-entries-wrapper">
+        <span>Previous entries:</span> <span id="previous-entries"></span>
+      </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="concat-strings.js"></script>
+    <script src="concat-strings-in-a-function.js"></script>
+  </body>
+</html>
