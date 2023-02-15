@@ -1,10 +1,14 @@
 let countEl = document.getElementById("count-el")
+let totalCountEl = document.getElementById("total-count")
 
 let count = 0
+let total = 0
 
 function increment() {
     count += 1
+    total += 1
     countEl.textContent = count
+    totalCountEl.textContent = total
 }
 
 let previousEntriesEl = document.getElementById("previous-entries")

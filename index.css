@@ -39,7 +39,10 @@ button {
     background: #BD604E;
 }
 
-#previous-entries-wrapper {
+.result-wrapper {
     margin-top: 15px;
     font-weight: bold;
+}
+.result {
+    margin-top: 10px;
 }
